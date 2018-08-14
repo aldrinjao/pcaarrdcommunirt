@@ -1,6 +1,37 @@
-@import url('https://fonts.googleapis.com/css?family=Bad+Script');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.sectortitle{
+    font-weight: 500;
+}
+
+.subsectorlist{
+    list-style: none;
+    padding-top: 20px;
+    font-size:20px;
+}
+
+.subsectorlist li{
+    padding: 5px;
+}
+
+.sectorDescription{
+    padding-top:25px;
+    text-align: justify;
+    font-size:18px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.subsectorlist li{
+    color: #38a0e6;
+    font-weight: 400;
+}
+
+.subsectorheadertitle{
+    font-size: 26px;
+}
 
 
-.comstat{
-    font-size: 24px;
+.row{
+    margin-bottom: 20px;
 }
