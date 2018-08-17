@@ -9,3 +9,34 @@
 .statsDigits{
     margin-bottom: 30px;
 }
+
+@media (max-width: 777px) { 
+    .statistics{
+        display: none;
+    }
+
+}
+
+
+#banner{
+
+    background-image: url("../../assets/3.png");
+    background-repeat:no-repeat;
+}
+
+@media (max-width: 777px) { 
+    #banner{
+        background-position-x: 50%;
+        background-size: 50%;
+        background-position-y: 10%;   
+    }
+}
+
+@media (min-width: 777px) { 
+    #banner{
+        background-position-x: 95%;
+        background-size: 20%;
+        background-position-y: 10%;   
+    }
+    
+}

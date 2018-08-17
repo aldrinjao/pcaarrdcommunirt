@@ -6,8 +6,9 @@
 
 .subsectorlist{
     list-style: none;
-    padding-top: 20px;
+    padding: 20px 0px 0px 0px;
     font-size:20px;
+    text-align: right;
 }
 
 .subsectorlist li{
@@ -17,7 +18,7 @@
 .sectorDescription{
     padding-top:25px;
     text-align: justify;
-    font-size:18px;
+    font-size:20px;
     font-family: 'Roboto', sans-serif;
 
 }
@@ -31,7 +32,41 @@
     font-size: 26px;
 }
 
-
 .row{
-    margin-bottom: 20px;
+    margin:0px 0px 20px 0px;
+}
+
+.articlelist li{
+    padding: 10px 0px;
+}
+
+@media (max-width: 992px) { 
+    .subsectorlist{
+        display: none;
+    }
+
+ }
+
+@media (min-width: 992px) { 
+    .subsectorresponsive{
+        display: none;
+    }
+
+}
+
+@media (max-width: 992px) { 
+    .sectortitle{
+        display: none;
+    }
+
+}
+
+.navbar-brand{
+    color:white;
+    font-weight: 300;
+    font-size: 1.7rem;
+}
+
+.navbar-1 .navbar-toggler-icon {
+    background-image: url('https://mdbootstrap.com/img/svg/hamburger7.svg?color=BFE100');
 }
