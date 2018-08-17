@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.sectortitle{
+    font-weight: 500;
+    border-bottom: 5px solid #4A4AB2;
+    background:#383838;
+    color:white;
+    padding:5px;
+}
+
+.subsectorlist{
+    list-style: none;
+    padding: 20px 0px 0px 0px;
+    font-size:20px;
+    text-align: right;
+}
+
+.subsectorlist li{
+    padding: 5px;
+}
+
+.sectorDescription{
+    padding-top:25px;
+    text-align: justify;
+    font-size:20px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.subsectorlist li{
+    color: #38a0e6;
+    font-weight: 400;
+}
+
+.subsectorheadertitle{
+    font-size: 26px;
+}
+
+.row{
+    margin:0px 0px 20px 0px;
+}
+
+.articlelist li{
+    padding: 10px 0px;
+}
+
+@media (max-width: 992px) { 
+    .subsectorlist{
+        display: none;
+    }
+
+ }
+
+@media (min-width: 992px) { 
+    .subsectorresponsive{
+        display: none;
+    }
+
+}
+
+@media (max-width: 992px) { 
+    .sectortitle{
+        display: none;
+    }
+
+}
+
+.navbar-brand{
+    color:white;
+    font-weight: 300;
+    font-size: 1.7rem;
+}
+
+.navbar-1 .navbar-toggler-icon {
+    background-image: url('https://mdbootstrap.com/img/svg/hamburger7.svg?color=BFE100');
+}
+
+p{
+	margin:20px;
+}
+
+.result{
+	font-size:25px;
+}
+
+a:hover {
+	
+	text-decoration: underline;
+}
