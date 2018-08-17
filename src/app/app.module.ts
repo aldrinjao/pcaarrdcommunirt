@@ -12,6 +12,8 @@ import { FooterComponent } from './footer/footer.component';
 import { MainpageComponent } from './mainpage/mainpage.component';
 import { AppRoutingModule } from './/app-routing.module';
 import { SearchComponent } from './search/search.component';
+import { ResultsComponent } from './results/results.component';
+import { SearchbarComponent } from './searchbar/searchbar.component';
 
 
 @NgModule({
@@ -22,7 +24,9 @@ import { SearchComponent } from './search/search.component';
     ContentComponent,
     FooterComponent,
     MainpageComponent,
-    SearchComponent
+    SearchComponent,
+    ResultsComponent,
+    SearchbarComponent
   ],
   imports: [
     BrowserModule,
