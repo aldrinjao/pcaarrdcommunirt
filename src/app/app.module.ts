@@ -8,18 +8,27 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { BannerComponent } from './banner/banner.component';
 import { ContentComponent } from './content/content.component';
 import { FooterComponent } from './footer/footer.component';
+
+import { MainpageComponent } from './mainpage/mainpage.component';
+import { AppRoutingModule } from './/app-routing.module';
+import { SearchComponent } from './search/search.component';
+
+
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     BannerComponent,
     ContentComponent,
-    FooterComponent
+    FooterComponent,
+    MainpageComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,
     MDBBootstrapModule.forRoot(),
-    Ng2OdometerModule.forRoot() // <-- include it in your app module
+    Ng2OdometerModule.forRoot(),
+    AppRoutingModule, // <-- include it in your app module
 
   ],
   providers: [],
